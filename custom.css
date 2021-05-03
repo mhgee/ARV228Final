@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* All photos owned by Michelle Gee*/
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+.body {
+	background-color:#E4F0E4;
+}
+/*------------------------Text------------------------*/
+.head{
+	font-family: 'Russo One', sans-serif;
+	font-size: 75px;
+	text-align: center;
+	color: #2E2E2E;
+}
+.sub {
+	font-family: 'Russo One', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 100px;
+	color: #2E2E2E;
+}
+.line {
+	background-color: #A8CEA8;
+	height: 3px;
+	width: 50%;
+}
+.vert-l {
+ 	font-family: 'Major Mono Display', monospace;
+	font-size: 3vw;
+	writing-mode: vertical-rl;
+	color: #2E2E2E;
+	text-shadow: 1px 1px 20px #364136 ;
+
+}
+/*------------------------Body-------------------------*/
+.container {
+	display: flex;
+	align-content: center;
+}
+.grid {
+    display: flex;
+	align-content: center;
+
+}
+.zen {
+	display: flex;
+	align-content: center;
+}
+.boot {
+	display: flex;
+	align-content: center;
+}
+
+img {
+	height: 85%!important;
+	width: 85%!important;
+	box-shadow: 5px 5px #364136, 10px 10px #2E2E2E ;
+}    
+#foot {
+	font-family: 'Russo One', sans-serif;
+	text-align: center;
+	width: 100%;
+	bottom: 0px;
+	display: block;
+}
+
+@media screen and (max-width: 991px) {
+	.vert-l {
+		font-size: 30px;
+		padding-left: -20px;
+	}
+	.container {
+		justify-content: center;
+	}
+}
